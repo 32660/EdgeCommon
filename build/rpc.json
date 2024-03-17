@@ -370,9 +370,7 @@
           "responseMessageName": "CreateADNetworkResponse",
           "code": "rpc createADNetwork(CreateADNetworkRequest) returns (CreateADNetworkResponse);",
           "doc": "创建线路",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -381,9 +379,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateADNetwork(UpdateADNetworkRequest) returns (RPCSuccess);",
           "doc": "修改线路",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -392,9 +388,7 @@
           "responseMessageName": "FindADNetworkResponse",
           "code": "rpc findADNetwork(FindADNetworkRequest) returns (FindADNetworkResponse);",
           "doc": "查找单个线路",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -403,9 +397,7 @@
           "responseMessageName": "FindAllADNetworkResponse",
           "code": "rpc findAllADNetworks(FindAllADNetworkRequest) returns (FindAllADNetworkResponse);",
           "doc": "列出所有线路",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -414,9 +406,7 @@
           "responseMessageName": "FindAllAvailableADNetworksResponse",
           "code": "rpc findAllAvailableADNetworks(FindAllAvailableADNetworksRequest) returns (FindAllAvailableADNetworksResponse);",
           "doc": "列出所有可用的线路",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -425,9 +415,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteADNetwork(DeleteADNetworkRequest) returns (RPCSuccess);",
           "doc": "删除线路",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -443,9 +431,7 @@
           "responseMessageName": "CreateADPackageResponse",
           "code": "rpc createADPackage(CreateADPackageRequest) returns (CreateADPackageResponse);",
           "doc": "创建高防产品",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -454,9 +440,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateADPackage(UpdateADPackageRequest) returns (RPCSuccess);",
           "doc": "修改高防产品",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -465,9 +449,7 @@
           "responseMessageName": "FindADPackageResponse",
           "code": "rpc findADPackage(FindADPackageRequest) returns (FindADPackageResponse);",
           "doc": "查找单个高防产品",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -476,9 +458,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countADPackages(CountADPackagesRequest) returns (RPCCountResponse);",
           "doc": "查询高防产品数量",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -487,9 +467,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countAllIdleADPackages(CountAllIdleADPackages) returns (RPCCountResponse);",
           "doc": "查询可用的产品数量",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -498,9 +476,7 @@
           "responseMessageName": "ListADPackagesResponse",
           "code": "rpc listADPackages(ListADPackagesRequest) returns (ListADPackagesResponse);",
           "doc": "列出单页高防产品",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -509,9 +485,7 @@
           "responseMessageName": "FindAllIdleADPackagesResponse",
           "code": "rpc findAllIdleADPackages(FindAllIdleADPackagesRequest) returns (FindAllIdleADPackagesResponse);",
           "doc": "列出所有可用的高防产品",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -520,9 +494,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteADPackage(DeleteADPackageRequest) returns (RPCSuccess);",
           "doc": "删除高防产品",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -538,9 +510,7 @@
           "responseMessageName": "CreateADPackageInstanceResponse",
           "code": "rpc createADPackageInstance(CreateADPackageInstanceRequest) returns (CreateADPackageInstanceResponse);",
           "doc": "创建实例",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -549,9 +519,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateADPackageInstance(UpdateADPackageInstanceRequest) returns (RPCSuccess);",
           "doc": "修改实例",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -560,9 +528,7 @@
           "responseMessageName": "FindADPackageInstanceResponse",
           "code": "rpc findADPackageInstance(FindADPackageInstanceRequest) returns (FindADPackageInstanceResponse);",
           "doc": "查找单个实例",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -571,9 +537,7 @@
           "responseMessageName": "FindAllADPackageInstancesResponse",
           "code": "rpc findAllADPackageInstances(FindAllADPackageInstancesRequest) returns (FindAllADPackageInstancesResponse);",
           "doc": "列出单个高防产品所有实例",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -582,9 +546,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteADPackageInstance(DeleteADPackageInstanceRequest) returns (RPCSuccess);",
           "doc": "删除实例",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -593,9 +555,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countIdleADPackageInstances(CountIdleADPackageInstancesRequest) returns (RPCCountResponse);",
           "doc": "计算可购的实例数量",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -604,9 +564,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countADPackageInstances(CountADPackageInstancesRequest) returns (RPCCountResponse);",
           "doc": "计算实例数量",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -615,9 +573,7 @@
           "responseMessageName": "ListADPackageInstancesResponse",
           "code": "rpc listADPackageInstances(ListADPackageInstancesRequest) returns (ListADPackageInstancesResponse);",
           "doc": "列出单页实例",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -633,9 +589,7 @@
           "responseMessageName": "CreateADPackagePeriodResponse",
           "code": "rpc createADPackagePeriod(CreateADPackagePeriodRequest) returns (CreateADPackagePeriodResponse);",
           "doc": "创建有效期",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -644,9 +598,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateADPackagePeriod(UpdateADPackagePeriodRequest) returns (RPCSuccess);",
           "doc": "修改有效期",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -655,9 +607,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteADPackagePeriod(DeleteADPackagePeriodRequest) returns (RPCSuccess);",
           "doc": "删除有效期",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -666,9 +616,7 @@
           "responseMessageName": "FindADPackagePeriodResponse",
           "code": "rpc findADPackagePeriod(FindADPackagePeriodRequest) returns (FindADPackagePeriodResponse);",
           "doc": "查找有效期",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -677,9 +625,7 @@
           "responseMessageName": "FindAllADPackagePeriodsResponse",
           "code": "rpc findAllADPackagePeriods(FindAllADPackagePeriodsRequest) returns (FindAllADPackagePeriodsResponse);",
           "doc": "列出所有有效期",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -688,9 +634,7 @@
           "responseMessageName": "FindAllAvailableADPackagePeriodsResponse",
           "code": "rpc findAllAvailableADPackagePeriods(FindAllAvailableADPackagePeriodsRequest) returns (FindAllAvailableADPackagePeriodsResponse);",
           "doc": "列出所有可用有效期",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -706,9 +650,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateADPackagePrice(UpdateADPackagePriceRequest) returns (RPCSuccess);",
           "doc": "设置高防产品价格",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -717,9 +659,7 @@
           "responseMessageName": "FindADPackagePriceResponse",
           "code": "rpc findADPackagePrice(FindADPackagePriceRequest) returns (FindADPackagePriceResponse);",
           "doc": "获取单个高防产品具体价格",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -728,9 +668,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countADPackagePrices(CountADPackagePricesRequest) returns (RPCCountResponse);",
           "doc": "计算高防产品价格项数量",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -739,9 +677,7 @@
           "responseMessageName": "FindADPackagePricesResponse",
           "code": "rpc findADPackagePrices(FindADPackagePricesRequest) returns (FindADPackagePricesResponse);",
           "doc": "查找高防产品价格",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -750,9 +686,7 @@
           "responseMessageName": "FindAllADPackagePricesResponse",
           "code": "rpc findAllADPackagePrices(FindAllADPackagePricesRequest) returns (FindAllADPackagePricesResponse);",
           "doc": "查找所有高防产品价格",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -1984,6 +1918,22 @@
       "doc": "操作系统信息库服务"
     },
     {
+      "name": "HelloWorldService",
+      "methods": [
+        {
+          "name": "SayHello",
+          "requestMessageName": "SayHelloRequest",
+          "responseMessageName": "SayHelloResponse",
+          "code": "rpc SayHello(SayHelloRequest) returns (SayHelloResponse);",
+          "doc": "",
+          "roles": [],
+          "isDeprecated": false
+        }
+      ],
+      "filename": "service_hello_world.proto",
+      "doc": ""
+    },
+    {
       "name": "HTTPAccessLogService",
       "methods": [
         {
@@ -2045,9 +1995,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countAllHTTPAccessLogPolicies (CountAllHTTPAccessLogPoliciesRequest) returns (RPCCountResponse);",
           "doc": "计算访问日志策略数量",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -2056,9 +2004,7 @@
           "responseMessageName": "ListHTTPAccessLogPoliciesResponse",
           "code": "rpc listHTTPAccessLogPolicies (ListHTTPAccessLogPoliciesRequest) returns (ListHTTPAccessLogPoliciesResponse);",
           "doc": "列出单页访问日志策略",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -2067,9 +2013,7 @@
           "responseMessageName": "CreateHTTPAccessLogPolicyResponse",
           "code": "rpc createHTTPAccessLogPolicy (CreateHTTPAccessLogPolicyRequest) returns (CreateHTTPAccessLogPolicyResponse);",
           "doc": "创建访问日志策略",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -2078,9 +2022,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateHTTPAccessLogPolicy (UpdateHTTPAccessLogPolicyRequest) returns (RPCSuccess);",
           "doc": "修改访问日志策略",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -2089,9 +2031,7 @@
           "responseMessageName": "FindHTTPAccessLogPolicyResponse",
           "code": "rpc findHTTPAccessLogPolicy (FindHTTPAccessLogPolicyRequest) returns (FindHTTPAccessLogPolicyResponse);",
           "doc": "查找单个访问日志策略",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -2100,9 +2040,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteHTTPAccessLogPolicy (DeleteHTTPAccessLogPolicyRequest) returns (RPCSuccess);",
           "doc": "删除访问日志策略",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -2111,9 +2049,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc writeHTTPAccessLogPolicy (WriteHTTPAccessLogPolicyRequest) returns (RPCSuccess);",
           "doc": "测试写入某个访问日志策略",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -3473,10 +3409,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateHTTPWebRequestScripts(UpdateHTTPWebRequestScriptsRequest) returns (RPCSuccess);",
           "doc": "修改请求脚本",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -3496,10 +3429,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateHTTPWebUAM(UpdateHTTPWebUAMRequest) returns (RPCSuccess);",
           "doc": "修改UAM设置",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -3508,10 +3438,7 @@
           "responseMessageName": "FindHTTPWebUAMResponse",
           "code": "rpc findHTTPWebUAM(FindHTTPWebUAMRequest) returns (FindHTTPWebUAMResponse);",
           "doc": "查找UAM设置",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -3520,10 +3447,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateHTTPWebCC(UpdateHTTPWebCCRequest) returns (RPCSuccess);",
           "doc": "修改CC设置",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -3532,10 +3456,7 @@
           "responseMessageName": "FindHTTPWebCCResponse",
           "code": "rpc findHTTPWebCC(FindHTTPWebCCRequest) returns (FindHTTPWebCCResponse);",
           "doc": "查找CC设置",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -3592,10 +3513,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateHTTPWebHLS(UpdateHTTPWebHLSRequest) returns (RPCSuccess);",
           "doc": "修改HLS设置",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -3604,10 +3522,7 @@
           "responseMessageName": "FindHTTPWebHLSResponse",
           "code": "rpc findHTTPWebHLS(FindHTTPWebHLSRequest) returns (FindHTTPWebHLSResponse);",
           "doc": "查找HLS设置",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -4470,9 +4385,7 @@
           "responseMessageName": "FindAllMessageMediasResponse",
           "code": "rpc findAllMessageMedias (FindAllMessageMediasRequest) returns (FindAllMessageMediasResponse);",
           "doc": "获取所有支持的媒介",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -4481,9 +4394,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc sendMediaMessage(SendMediaMessageRequest) returns (RPCSuccess);",
           "doc": "发送媒介信息",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -4499,9 +4410,7 @@
           "responseMessageName": "CreateMessageMediaInstanceResponse",
           "code": "rpc createMessageMediaInstance (CreateMessageMediaInstanceRequest) returns (CreateMessageMediaInstanceResponse);",
           "doc": "创建消息媒介实例",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -4510,9 +4419,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateMessageMediaInstance (UpdateMessageMediaInstanceRequest) returns (RPCSuccess);",
           "doc": "修改消息媒介实例",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -4521,9 +4428,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteMessageMediaInstance (DeleteMessageMediaInstanceRequest) returns (RPCSuccess);",
           "doc": "删除消息媒介实例",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -4532,9 +4437,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countAllEnabledMessageMediaInstances (CountAllEnabledMessageMediaInstancesRequest) returns (RPCCountResponse);",
           "doc": "计算消息媒介实例数量",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -4543,9 +4446,7 @@
           "responseMessageName": "ListEnabledMessageMediaInstancesResponse",
           "code": "rpc listEnabledMessageMediaInstances (ListEnabledMessageMediaInstancesRequest) returns (ListEnabledMessageMediaInstancesResponse);",
           "doc": "列出单页消息媒介实例",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -4554,9 +4455,7 @@
           "responseMessageName": "FindEnabledMessageMediaInstanceResponse",
           "code": "rpc findEnabledMessageMediaInstance (FindEnabledMessageMediaInstanceRequest) returns (FindEnabledMessageMediaInstanceResponse);",
           "doc": "查找单个消息媒介实例信息",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -4572,9 +4471,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateMessageReceivers (UpdateMessageReceiversRequest) returns (RPCSuccess);",
           "doc": "修改接收者",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -4583,9 +4480,7 @@
           "responseMessageName": "FindAllEnabledMessageReceiversResponse",
           "code": "rpc findAllEnabledMessageReceivers (FindAllEnabledMessageReceiversRequest) returns (FindAllEnabledMessageReceiversResponse);",
           "doc": "查找接收者",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -4594,9 +4489,7 @@
           "responseMessageName": "FindAllEnabledMessageReceiversWithMessageRecipientIdResponse",
           "code": "rpc findAllEnabledMessageReceiversWithMessageRecipientId (FindAllEnabledMessageReceiversWithMessageRecipientIdRequest) returns (FindAllEnabledMessageReceiversWithMessageRecipientIdResponse);",
           "doc": "根据接收人查找关联的接收者",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -4605,9 +4498,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteMessageReceiver (DeleteMessageReceiverRequest) returns (RPCSuccess);",
           "doc": "删除接收者",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -4616,9 +4507,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countAllEnabledMessageReceivers (CountAllEnabledMessageReceiversRequest) returns (RPCCountResponse);",
           "doc": "计算接收者数量",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -4634,9 +4523,7 @@
           "responseMessageName": "CreateMessageRecipientResponse",
           "code": "rpc createMessageRecipient (CreateMessageRecipientRequest) returns (CreateMessageRecipientResponse);",
           "doc": "创建接收人",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -4645,9 +4532,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateMessageRecipient (UpdateMessageRecipientRequest) returns (RPCSuccess);",
           "doc": "修改接收人",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -4656,9 +4541,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteMessageRecipient (DeleteMessageRecipientRequest) returns (RPCSuccess);",
           "doc": "删除接收人",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -4667,9 +4550,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countAllEnabledMessageRecipients (CountAllEnabledMessageRecipientsRequest) returns (RPCCountResponse);",
           "doc": "计算接收人数量",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -4678,9 +4559,7 @@
           "responseMessageName": "ListEnabledMessageRecipientsResponse",
           "code": "rpc listEnabledMessageRecipients (ListEnabledMessageRecipientsRequest) returns (ListEnabledMessageRecipientsResponse);",
           "doc": "列出单页接收人",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -4689,9 +4568,7 @@
           "responseMessageName": "FindEnabledMessageRecipientResponse",
           "code": "rpc findEnabledMessageRecipient (FindEnabledMessageRecipientRequest) returns (FindEnabledMessageRecipientResponse);",
           "doc": "查找单个接收人信息",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -4707,9 +4584,7 @@
           "responseMessageName": "CreateMessageRecipientGroupResponse",
           "code": "rpc createMessageRecipientGroup (CreateMessageRecipientGroupRequest) returns (CreateMessageRecipientGroupResponse);",
           "doc": "创建分组",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -4718,9 +4593,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateMessageRecipientGroup (UpdateMessageRecipientGroupRequest) returns (RPCSuccess);",
           "doc": "修改分组",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -4729,9 +4602,7 @@
           "responseMessageName": "FindAllEnabledMessageRecipientGroupsResponse",
           "code": "rpc findAllEnabledMessageRecipientGroups (FindAllEnabledMessageRecipientGroupsRequest) returns (FindAllEnabledMessageRecipientGroupsResponse);",
           "doc": "查找所有可用的分组",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -4740,9 +4611,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteMessageRecipientGroup (DeleteMessageRecipientGroupRequest) returns (RPCSuccess);",
           "doc": "删除分组",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -4751,9 +4620,7 @@
           "responseMessageName": "FindEnabledMessageRecipientGroupResponse",
           "code": "rpc findEnabledMessageRecipientGroup (FindEnabledMessageRecipientGroupRequest) returns (FindEnabledMessageRecipientGroupResponse);",
           "doc": "查找单个分组信息",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -4769,9 +4636,7 @@
           "responseMessageName": "CreateMessageTaskResponse",
           "code": "rpc createMessageTask (CreateMessageTaskRequest) returns (CreateMessageTaskResponse);",
           "doc": "创建消息任务",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -4780,9 +4645,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteMessageTask (DeleteMessageTaskRequest) returns (RPCSuccess);",
           "doc": "删除消息任务",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -4791,9 +4654,7 @@
           "responseMessageName": "FindEnabledMessageTaskResponse",
           "code": "rpc findEnabledMessageTask (FindEnabledMessageTaskRequest) returns (FindEnabledMessageTaskResponse);",
           "doc": "读取消息任务状态",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -4802,9 +4663,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countMessageTasksWithStatus(CountMessageTasksWithStatusRequest) returns (RPCCountResponse);",
           "doc": "计算某个状态的消息任务数量",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -4813,9 +4672,7 @@
           "responseMessageName": "ListMessageTasksWithStatusResponse",
           "code": "rpc listMessageTasksWithStatus(ListMessageTasksWithStatusRequest) returns (ListMessageTasksWithStatusResponse);",
           "doc": "根据状态列出某页任务",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -4824,9 +4681,7 @@
           "responseMessageName": "SendMessageTaskResponse",
           "code": "rpc sendMessageTask(SendMessageTaskRequest) returns (SendMessageTaskResponse);",
           "doc": "发送某个消息任务",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -4835,9 +4690,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateMessageTaskStatus(UpdateMessageTaskStatusRequest) returns (RPCSuccess);",
           "doc": "修改消息任务状态",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -4853,9 +4706,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countMessageTaskLogs (CountMessageTaskLogsRequest) returns (RPCCountResponse);",
           "doc": "计算日志数量",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -4864,9 +4715,7 @@
           "responseMessageName": "ListMessageTaskLogsResponse",
           "code": "rpc listMessageTaskLogs (ListMessageTaskLogsRequest) returns (ListMessageTaskLogsResponse);",
           "doc": "列出当页日志",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -5631,9 +5480,7 @@
           "responseMessageName": "FindNodeUAMPoliciesResponse",
           "code": "rpc findNodeUAMPolicies(FindNodeUAMPoliciesRequest) returns (FindNodeUAMPoliciesResponse);",
           "doc": "查找节点的UAM策略",
-          "roles": [
-            "node"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -5642,9 +5489,7 @@
           "responseMessageName": "FindNodeHTTPCCPoliciesResponse",
           "code": "rpc findNodeHTTPCCPolicies(FindNodeHTTPCCPoliciesRequest) returns (FindNodeHTTPCCPoliciesResponse);",
           "doc": "查找节点的HTTP CC策略",
-          "roles": [
-            "node"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -5653,9 +5498,7 @@
           "responseMessageName": "FindNodeHTTP3PoliciesResponse",
           "code": "rpc findNodeHTTP3Policies(FindNodeHTTP3PoliciesRequest) returns (FindNodeHTTP3PoliciesResponse);",
           "doc": "查找节点的HTTP3策略",
-          "roles": [
-            "node"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -5664,9 +5507,7 @@
           "responseMessageName": "FindNodeHTTPPagesPoliciesResponse",
           "code": "rpc findNodeHTTPPagesPolicies(FindNodeHTTPPagesPoliciesRequest) returns (FindNodeHTTPPagesPoliciesResponse);",
           "doc": "查找节点的自定义页面策略",
-          "roles": [
-            "node"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -5675,9 +5516,7 @@
           "responseMessageName": "FindNodeScheduleInfoResponse",
           "code": "rpc findNodeScheduleInfo(FindNodeScheduleInfoRequest) returns (FindNodeScheduleInfoResponse);",
           "doc": "查找节点调度信息",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -5686,9 +5525,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNodeScheduleInfo(UpdateNodeScheduleInfoRequest) returns (RPCSuccess);",
           "doc": "修改节点调度信息",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -5697,9 +5534,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc resetNodeActionStatus(ResetNodeActionStatusRequest) returns (RPCSuccess);",
           "doc": "重置节点动作状态",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -5708,9 +5543,7 @@
           "responseMessageName": "FindAllNodeScheduleInfoWithNodeClusterIdResponse",
           "code": "rpc findAllNodeScheduleInfoWithNodeClusterId(FindAllNodeScheduleInfoWithNodeClusterIdRequest) returns (FindAllNodeScheduleInfoWithNodeClusterIdResponse);",
           "doc": "查找集群的节点调度信息",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -5719,9 +5552,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc copyNodeActionsToNodeGroup(CopyNodeActionsToNodeGroupRequest) returns (RPCSuccess);",
           "doc": "复制动作设置到分组",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -5730,9 +5561,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc copyNodeActionsToNodeCluster(CopyNodeActionsToNodeClusterRequest) returns (RPCSuccess);",
           "doc": "复制动作设置到集群",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -5741,9 +5570,7 @@
           "responseMessageName": "FindNodeTOAConfigResponse",
           "code": "rpc findNodeTOAConfig(FindNodeTOAConfigRequest) returns (FindNodeTOAConfigResponse);",
           "doc": "查找节点的TOA配置",
-          "roles": [
-            "node"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -5752,9 +5579,7 @@
           "responseMessageName": "FindNodeNetworkSecurityPolicyResponse",
           "code": "rpc findNodeNetworkSecurityPolicy(FindNodeNetworkSecurityPolicyRequest) returns (FindNodeNetworkSecurityPolicyResponse);",
           "doc": "查找节点的网络安全策略",
-          "roles": [
-            "node"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -5792,9 +5617,7 @@
           "responseMessageName": "CreateNodeActionResponse",
           "code": "rpc createNodeAction(CreateNodeActionRequest) returns (CreateNodeActionResponse);",
           "doc": "添加动作",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -5803,9 +5626,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteNodeAction(DeleteNodeActionRequest) returns (RPCSuccess);",
           "doc": "删除动作",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -5814,9 +5635,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNodeAction(UpdateNodeActionRequest) returns (RPCSuccess);",
           "doc": "修改动作",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -5825,9 +5644,7 @@
           "responseMessageName": "FindAllNodeActionsResponse",
           "code": "rpc findAllNodeActions(FindAllNodeActionsRequest) returns (FindAllNodeActionsResponse);",
           "doc": "列出某个节点的所有动作",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -5836,9 +5653,7 @@
           "responseMessageName": "FindNodeActionResponse",
           "code": "rpc findNodeAction(FindNodeActionRequest) returns (FindNodeActionResponse);",
           "doc": "查找单个节点动作",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -5847,9 +5662,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNodeActionOrders(UpdateNodeActionOrdersRequest) returns (RPCSuccess);",
           "doc": "设置节点动作排序",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -6383,9 +6196,7 @@
           "responseMessageName": "FindNodeClusterHTTP3PolicyResponse",
           "code": "rpc findNodeClusterHTTP3Policy(FindNodeClusterHTTP3PolicyRequest) returns (FindNodeClusterHTTP3PolicyResponse);",
           "doc": "获取集群的HTTP3设置",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -6405,9 +6216,7 @@
           "responseMessageName": "FindNodeClusterNetworkSecurityPolicyResponse",
           "code": "rpc findNodeClusterNetworkSecurityPolicy(FindNodeClusterNetworkSecurityPolicyRequest) returns (FindNodeClusterNetworkSecurityPolicyResponse);",
           "doc": "获取集群的网络安全策略",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -6416,9 +6225,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNodeClusterNetworkSecurityPolicy(UpdateNodeClusterNetworkSecurityPolicyRequest) returns (RPCSuccess);",
           "doc": "修改集群的网络安全策略",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -7111,9 +6918,7 @@
           "responseMessageName": "CreateNodePriceItemResponse",
           "code": "rpc createNodePriceItem (CreateNodePriceItemRequest) returns (CreateNodePriceItemResponse);",
           "doc": "创建区域价格",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7122,9 +6927,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNodePriceItem (UpdateNodePriceItemRequest) returns (RPCSuccess);",
           "doc": "修改区域价格",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7133,9 +6936,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteNodePriceItem (DeleteNodePriceItemRequest) returns (RPCSuccess);",
           "doc": "删除区域价格",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7144,9 +6945,7 @@
           "responseMessageName": "FindAllEnabledNodePriceItemsResponse",
           "code": "rpc findAllEnabledNodePriceItems (FindAllEnabledNodePriceItemsRequest) returns (FindAllEnabledNodePriceItemsResponse);",
           "doc": "查找所有区域价格",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7155,9 +6954,7 @@
           "responseMessageName": "FindAllAvailableNodePriceItemsResponse",
           "code": "rpc findAllAvailableNodePriceItems (FindAllAvailableNodePriceItemsRequest) returns (FindAllAvailableNodePriceItemsResponse);",
           "doc": "查找所有启用的区域价格",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7166,9 +6963,7 @@
           "responseMessageName": "FindEnabledNodePriceItemResponse",
           "code": "rpc findEnabledNodePriceItem (FindEnabledNodePriceItemRequest) returns (FindEnabledNodePriceItemResponse);",
           "doc": "查找单个区域信息",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -7514,9 +7309,7 @@
           "responseMessageName": "ComposeNSBoardResponse",
           "code": "rpc composeNSBoard (ComposeNSBoardRequest) returns (ComposeNSBoardResponse);",
           "doc": "组合看板数据",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7525,10 +7318,7 @@
           "responseMessageName": "ComposeNSUserBoardResponse",
           "code": "rpc composeNSUserBoard(ComposeNSUserBoardRequest) returns (ComposeNSUserBoardResponse);",
           "doc": "组合用户看板数据",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -7544,9 +7334,7 @@
           "responseMessageName": "CreateNSAccessLogsResponse",
           "code": "rpc createNSAccessLogs (CreateNSAccessLogsRequest) returns (CreateNSAccessLogsResponse);",
           "doc": "创建访问日志",
-          "roles": [
-            "dns"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7555,10 +7343,7 @@
           "responseMessageName": "ListNSAccessLogsResponse",
           "code": "rpc listNSAccessLogs (ListNSAccessLogsRequest) returns (ListNSAccessLogsResponse);",
           "doc": "列出单页访问日志",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7567,10 +7352,7 @@
           "responseMessageName": "FindNSAccessLogResponse",
           "code": "rpc findNSAccessLog (FindNSAccessLogRequest) returns (FindNSAccessLogResponse);",
           "doc": "查找单个日志",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -7586,9 +7368,7 @@
           "responseMessageName": "CreateNSClusterResponse",
           "code": "rpc createNSCluster (CreateNSClusterRequest) returns (CreateNSClusterResponse);",
           "doc": "创建集群",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7597,9 +7377,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNSCluster (UpdateNSClusterRequest) returns (RPCSuccess);",
           "doc": "修改集群",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7608,9 +7386,7 @@
           "responseMessageName": "FindNSClusterAccessLogResponse",
           "code": "rpc findNSClusterAccessLog (FindNSClusterAccessLogRequest) returns (FindNSClusterAccessLogResponse);",
           "doc": "查找集群访问日志配置",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7619,9 +7395,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNSClusterAccessLog (UpdateNSClusterAccessLogRequest) returns (RPCSuccess);",
           "doc": "修改集群访问日志配置",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7630,9 +7404,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteNSCluster (DeleteNSCluster) returns (RPCSuccess);",
           "doc": "删除集群",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7641,9 +7413,7 @@
           "responseMessageName": "FindNSClusterResponse",
           "code": "rpc findNSCluster (FindNSClusterRequest) returns (FindNSClusterResponse);",
           "doc": "查找单个可用集群信息",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7652,9 +7422,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countAllNSClusters (CountAllNSClustersRequest) returns (RPCCountResponse);",
           "doc": "计算所有可用集群的数量",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7663,9 +7431,7 @@
           "responseMessageName": "ListNSClustersResponse",
           "code": "rpc listNSClusters (ListNSClustersRequest) returns (ListNSClustersResponse);",
           "doc": "列出单页可用集群",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7674,9 +7440,7 @@
           "responseMessageName": "FindAllNSClustersResponse",
           "code": "rpc findAllNSClusters (FindAllNSClustersRequest) returns (FindAllNSClustersResponse);",
           "doc": "查找所有可用集群",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7685,9 +7449,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNSClusterRecursionConfig(UpdateNSClusterRecursionConfigRequest) returns (RPCSuccess);",
           "doc": "设置递归DNS配置",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7696,9 +7458,7 @@
           "responseMessageName": "FindNSClusterRecursionConfigResponse",
           "code": "rpc findNSClusterRecursionConfig(FindNSClusterRecursionConfigRequest) returns (FindNSClusterRecursionConfigResponse);",
           "doc": "读取递归DNS配置",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7707,9 +7467,7 @@
           "responseMessageName": "FindNSClusterTCPConfigResponse",
           "code": "rpc findNSClusterTCPConfig(FindNSClusterTCPConfigRequest) returns (FindNSClusterTCPConfigResponse);",
           "doc": "查找集群的TCP设置",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7718,9 +7476,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNSClusterTCP (UpdateNSClusterTCPRequest) returns (RPCSuccess);",
           "doc": "修改集群的TCP设置",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7729,9 +7485,7 @@
           "responseMessageName": "FindNSClusterTLSConfigResponse",
           "code": "rpc findNSClusterTLSConfig(FindNSClusterTLSConfigRequest) returns (FindNSClusterTLSConfigResponse);",
           "doc": "查找集群的TLS设置",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7740,9 +7494,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNSClusterTLS (UpdateNSClusterTLSRequest) returns (RPCSuccess);",
           "doc": "修改集群的TLS设置",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7751,9 +7503,7 @@
           "responseMessageName": "FindNSClusterUDPConfigResponse",
           "code": "rpc findNSClusterUDPConfig(FindNSClusterUDPConfigRequest) returns (FindNSClusterUDPConfigResponse);",
           "doc": "查找集群的UDP设置",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7762,9 +7512,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNSClusterUDP (UpdateNSClusterUDPRequest) returns (RPCSuccess);",
           "doc": "修改集群的UDP设置",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7773,9 +7521,7 @@
           "responseMessageName": "FindNSClusterDoHConfigResponse",
           "code": "rpc findNSClusterDoHConfig(FindNSClusterDoHConfigRequest) returns (FindNSClusterDoHConfigResponse);",
           "doc": "查找集群的DoH设置",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7784,9 +7530,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNSClusterDoH (UpdateNSClusterDoHRequest) returns (RPCSuccess);",
           "doc": "修改集群的DoH设置",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7795,9 +7539,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countAllNSClustersWithSSLCertId (CountAllNSClustersWithSSLCertIdRequest) returns (RPCCountResponse);",
           "doc": "计算使用某个SSL证书的集群数量",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7806,9 +7548,7 @@
           "responseMessageName": "FindNSClusterDDoSProtectionResponse",
           "code": "rpc findNSClusterDDoSProtection(FindNSClusterDDoSProtectionRequest) returns (FindNSClusterDDoSProtectionResponse);",
           "doc": "获取NS集群的DDoS设置",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7817,9 +7557,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNSClusterDDoSProtection(UpdateNSClusterDDoSProtectionRequest) returns (RPCSuccess);",
           "doc": "修改NS集群的DDoS设置",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7828,9 +7566,7 @@
           "responseMessageName": "FindNSClusterHostsResponse",
           "code": "rpc findNSClusterHosts(FindNSClusterHostsRequest) returns (FindNSClusterHostsResponse);",
           "doc": "查找NS集群的主机地址",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7839,9 +7575,7 @@
           "responseMessageName": "FindAvailableNSHostsForUserResponse",
           "code": "rpc findAvailableNSHostsForUser(FindAvailableNSHostsForUserRequest) returns (FindAvailableNSHostsForUserResponse);",
           "doc": "查找用户可以使用的主机地址",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7850,9 +7584,7 @@
           "responseMessageName": "FindNSClusterAnswerConfigResponse",
           "code": "rpc findNSClusterAnswerConfig(FindNSClusterAnswerConfigRequest) returns (FindNSClusterAnswerConfigResponse);",
           "doc": "查找应答模式",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7861,9 +7593,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNSClusterAnswerConfig(UpdateNSClusterAnswerConfigRequest) returns (RPCSuccess);",
           "doc": "设置应答模式",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7872,9 +7602,7 @@
           "responseMessageName": "FindNSClusterSOAConfigResponse",
           "code": "rpc findNSClusterSOAConfig(FindNSClusterSOAConfigRequest) returns (FindNSClusterSOAConfigResponse);",
           "doc": "查找SOA配置",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7883,9 +7611,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNSClusterSOAConfig(UpdateNSClusterSOAConfigRequest) returns (RPCSuccess);",
           "doc": "设置SOA配置",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -7901,10 +7627,7 @@
           "responseMessageName": "CreateNSDomainResponse",
           "code": "rpc createNSDomain (CreateNSDomainRequest) returns (CreateNSDomainResponse);",
           "doc": "创建单个域名",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7913,10 +7636,7 @@
           "responseMessageName": "CreateNSDomainsResponse",
           "code": "rpc createNSDomains(CreateNSDomainsRequest) returns (CreateNSDomainsResponse);",
           "doc": "批量创建域名",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7925,10 +7645,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNSDomain (UpdateNSDomainRequest) returns (RPCSuccess);",
           "doc": "修改域名",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7937,9 +7654,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNSDomainStatus(UpdateNSDomainStatusRequest) returns (RPCSuccess);",
           "doc": "修改域名状态",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7948,10 +7663,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteNSDomain (DeleteNSDomainRequest) returns (RPCSuccess);",
           "doc": "删除域名",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7960,10 +7672,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteNSDomains(DeleteNSDomainsRequest) returns (RPCSuccess);",
           "doc": "批量删除域名",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7972,10 +7681,7 @@
           "responseMessageName": "FindNSDomainResponse",
           "code": "rpc findNSDomain (FindNSDomainRequest) returns (FindNSDomainResponse);",
           "doc": "查找单个域名",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7984,10 +7690,7 @@
           "responseMessageName": "FindNSDomainWithNameResponse",
           "code": "rpc findNSDomainWithName(FindNSDomainWithNameRequest) returns (FindNSDomainWithNameResponse);",
           "doc": "根据域名名称查找域名",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -7996,9 +7699,7 @@
           "responseMessageName": "FindVerifiedNSDomainOnClusterResponse",
           "code": "rpc findVerifiedNSDomainOnCluster(FindVerifiedNSDomainOnClusterRequest) returns (FindVerifiedNSDomainOnClusterResponse);",
           "doc": "根据域名名称查找集群中的已验证域名",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8007,10 +7708,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countAllNSDomains (CountAllNSDomainsRequest) returns (RPCCountResponse);",
           "doc": "计算域名数量",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8019,10 +7717,7 @@
           "responseMessageName": "ListNSDomainsResponse",
           "code": "rpc listNSDomains (ListNSDomainsRequest) returns (ListNSDomainsResponse);",
           "doc": "列出单页域名",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8031,9 +7726,7 @@
           "responseMessageName": "ListNSDomainsAfterVersionResponse",
           "code": "rpc listNSDomainsAfterVersion (ListNSDomainsAfterVersionRequest) returns (ListNSDomainsAfterVersionResponse);",
           "doc": "根据版本列出一组域名",
-          "roles": [
-            "dns"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8042,9 +7735,7 @@
           "responseMessageName": "FindNSDomainTSIGResponse",
           "code": "rpc findNSDomainTSIG (FindNSDomainTSIGRequest) returns (FindNSDomainTSIGResponse);",
           "doc": "查找TSIG配置",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8053,9 +7744,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNSDomainTSIG (UpdateNSDomainTSIGRequest) returns (RPCSuccess);",
           "doc": "修改TSIG配置",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8064,10 +7753,7 @@
           "responseMessageName": "ExistNSDomainsResponse",
           "code": "rpc existNSDomains(ExistNSDomainsRequest) returns (ExistNSDomainsResponse);",
           "doc": "检查一组域名是否在用户账户中存在",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8076,10 +7762,7 @@
           "responseMessageName": "ExistVerifiedNSDomainsResponse",
           "code": "rpc existVerifiedNSDomains(ExistVerifiedNSDomainsRequest) returns (ExistVerifiedNSDomainsResponse);",
           "doc": "检查一组域名是否已通过验证",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8088,10 +7771,7 @@
           "responseMessageName": "FindNSDomainVerifyingInfoResponse",
           "code": "rpc findNSDomainVerifyingInfo(FindNSDomainVerifyingInfoRequest) returns (FindNSDomainVerifyingInfoResponse);",
           "doc": "获取域名验证信息",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8100,10 +7780,7 @@
           "responseMessageName": "VerifyNSDomainResponse",
           "code": "rpc verifyNSDomain(VerifyNSDomainRequest) returns (VerifyNSDomainResponse);",
           "doc": "验证域名信息",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8112,10 +7789,7 @@
           "responseMessageName": "FindNSDomainRecordsHealthCheckResponse",
           "code": "rpc findNSDomainRecordsHealthCheck(FindNSDomainRecordsHealthCheckRequest) returns (FindNSDomainRecordsHealthCheckResponse);",
           "doc": "查询记录健康检查全局设置",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8124,10 +7798,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNSDomainRecordsHealthCheck(UpdateNSDomainRecordsHealthCheckRequest) returns (RPCSuccess);",
           "doc": "修改记录健康检查全局设置",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -8143,10 +7814,7 @@
           "responseMessageName": "CreateNSDomainGroupResponse",
           "code": "rpc createNSDomainGroup(CreateNSDomainGroupRequest) returns (CreateNSDomainGroupResponse);",
           "doc": "创建分组",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8155,10 +7823,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNSDomainGroup(UpdateNSDomainGroupRequest) returns (RPCSuccess);",
           "doc": "修改分组",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8167,10 +7832,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteNSDomainGroup(DeleteNSDomainGroupRequest) returns (RPCSuccess);",
           "doc": "删除分组",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8179,10 +7841,7 @@
           "responseMessageName": "FindAllNSDomainGroupsResponse",
           "code": "rpc findAllNSDomainGroups(FindAllNSDomainGroupsRequest) returns (FindAllNSDomainGroupsResponse);",
           "doc": "查询所有分组",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8191,10 +7850,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countAllAvailableNSDomainGroups(CountAllAvailableNSDomainGroupsRequest) returns (RPCCountResponse);",
           "doc": "查询可用分组数量",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8203,10 +7859,7 @@
           "responseMessageName": "FindAllAvailableNSDomainGroupsResponse",
           "code": "rpc findAllAvailableNSDomainGroups(FindAllAvailableNSDomainGroupsRequest) returns (FindAllAvailableNSDomainGroupsResponse);",
           "doc": "查询所有启用分组",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8215,10 +7868,7 @@
           "responseMessageName": "FindNSDomainGroupResponse",
           "code": "rpc findNSDomainGroup(FindNSDomainGroupRequest) returns (FindNSDomainGroupResponse);",
           "doc": "查找单个分组",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -8234,10 +7884,7 @@
           "responseMessageName": "CreateNSKeyResponse",
           "code": "rpc createNSKey (CreateNSKeyRequest) returns (CreateNSKeyResponse);",
           "doc": "创建密钥",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8246,10 +7893,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNSKey (UpdateNSKeyRequest) returns (RPCSuccess);",
           "doc": "修改密钥",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8258,10 +7902,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteNSKey (DeleteNSKeyRequest) returns (RPCSuccess);",
           "doc": "删除密钥",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8270,10 +7911,7 @@
           "responseMessageName": "FindNSKeyResponse",
           "code": "rpc findNSKey (FindNSKeyRequest) returns (FindNSKeyResponse);",
           "doc": "查找单个密钥",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8282,10 +7920,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countAllNSKeys (CountAllNSKeysRequest) returns (RPCCountResponse);",
           "doc": "计算密钥数量",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8294,10 +7929,7 @@
           "responseMessageName": "ListNSKeysResponse",
           "code": "rpc listNSKeys (ListNSKeysRequest) returns (ListNSKeysResponse);",
           "doc": "列出单页密钥",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8306,9 +7938,7 @@
           "responseMessageName": "ListNSKeysAfterVersionResponse",
           "code": "rpc listNSKeysAfterVersion (ListNSKeysAfterVersionRequest) returns (ListNSKeysAfterVersionResponse);",
           "doc": "根据版本列出一组密钥",
-          "roles": [
-            "dns"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -8324,9 +7954,7 @@
           "responseMessageName": "FindAllNSNodesWithNSClusterIdResponse",
           "code": "rpc findAllNSNodesWithNSClusterId (FindAllNSNodesWithNSClusterIdRequest) returns (FindAllNSNodesWithNSClusterIdResponse);",
           "doc": "根据集群查找所有NS节点",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8335,9 +7963,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countAllNSNodes (CountAllNSNodesRequest) returns (RPCCountResponse);",
           "doc": "所有可用的NS节点数量",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8346,9 +7972,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countAllNSNodesMatch (CountAllNSNodesMatchRequest) returns (RPCCountResponse);",
           "doc": "计算匹配的NS节点数量",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8357,9 +7981,7 @@
           "responseMessageName": "ListNSNodesMatchResponse",
           "code": "rpc listNSNodesMatch (ListNSNodesMatchRequest) returns (ListNSNodesMatchResponse);",
           "doc": "列出单页NS节点",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8368,9 +7990,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countAllUpgradeNSNodesWithNSClusterId (CountAllUpgradeNSNodesWithNSClusterIdRequest) returns (RPCCountResponse);",
           "doc": "计算需要升级的NS节点数量",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8379,9 +7999,7 @@
           "responseMessageName": "CreateNSNodeResponse",
           "code": "rpc createNSNode (CreateNSNodeRequest) returns (CreateNSNodeResponse);",
           "doc": "创建NS节点",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8390,9 +8008,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteNSNode (DeleteNSNodeRequest) returns (RPCSuccess);",
           "doc": "删除NS节点",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8401,9 +8017,7 @@
           "responseMessageName": "FindNSNodeResponse",
           "code": "rpc findNSNode (FindNSNodeRequest) returns (FindNSNodeResponse);",
           "doc": "获取单个NS节点信息",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8412,9 +8026,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNSNode (UpdateNSNodeRequest) returns (RPCSuccess);",
           "doc": "修改NS节点",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8423,9 +8035,7 @@
           "responseMessageName": "InstallNSNodeResponse",
           "code": "rpc installNSNode (InstallNSNodeRequest) returns (InstallNSNodeResponse);",
           "doc": "安装NS节点",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8434,9 +8044,7 @@
           "responseMessageName": "FindNSNodeInstallStatusResponse",
           "code": "rpc findNSNodeInstallStatus (FindNSNodeInstallStatusRequest) returns (FindNSNodeInstallStatusResponse);",
           "doc": "读取NS节点安装状态",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8445,9 +8053,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNSNodeIsInstalled (UpdateNSNodeIsInstalledRequest) returns (RPCSuccess);",
           "doc": "修改NS节点安装状态",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8456,9 +8062,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNSNodeStatus (UpdateNSNodeStatusRequest) returns (RPCSuccess);",
           "doc": "更新NS节点状态",
-          "roles": [
-            "dns"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8467,9 +8071,7 @@
           "responseMessageName": "FindCurrentNSNodeConfigResponse",
           "code": "rpc findCurrentNSNodeConfig (FindCurrentNSNodeConfigRequest) returns (FindCurrentNSNodeConfigResponse);",
           "doc": "获取当前NS节点信息",
-          "roles": [
-            "dns"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8478,10 +8080,7 @@
           "responseMessageName": "CheckNSNodeLatestVersionResponse",
           "code": "rpc checkNSNodeLatestVersion (CheckNSNodeLatestVersionRequest) returns (CheckNSNodeLatestVersionResponse);",
           "doc": "检查NS节点新版本",
-          "roles": [
-            "dns",
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8490,9 +8089,7 @@
           "responseMessageName": "FindLatestNSNodeVersionResponse",
           "code": "rpc findLatestNSNodeVersion (FindLatestNSNodeVersionRequest) returns (FindLatestNSNodeVersionResponse);",
           "doc": "获取NS节点最新版本",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8501,9 +8098,7 @@
           "responseMessageName": "DownloadNSNodeInstallationFileResponse",
           "code": "rpc downloadNSNodeInstallationFile (DownloadNSNodeInstallationFileRequest) returns (DownloadNSNodeInstallationFileResponse);",
           "doc": "下载最新NS节点安装文件",
-          "roles": [
-            "dns"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8512,9 +8107,7 @@
           "responseMessageName": "NSNodeStreamMessage",
           "code": "rpc sendCommandToNSNode (NSNodeStreamMessage) returns (NSNodeStreamMessage);",
           "doc": "向NS节点发送命令",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8523,9 +8116,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNSNodeConnectedAPINodes (UpdateNSNodeConnectedAPINodesRequest) returns (RPCSuccess);",
           "doc": "更改NS节点连接的API节点信息",
-          "roles": [
-            "dns"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8534,9 +8125,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNSNodeLogin (UpdateNSNodeLoginRequest) returns (RPCSuccess);",
           "doc": "修改NS节点登录信息",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8545,9 +8134,7 @@
           "responseMessageName": "StartNSNodeResponse",
           "code": "rpc startNSNode (StartNSNodeRequest) returns (StartNSNodeResponse);",
           "doc": "启动NS节点",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8556,9 +8143,7 @@
           "responseMessageName": "StopNSNodeResponse",
           "code": "rpc stopNSNode (StopNSNodeRequest) returns (StopNSNodeResponse);",
           "doc": "停止NS节点",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8567,10 +8152,7 @@
           "responseMessageName": "FindNSNodeDDoSProtectionResponse",
           "code": "rpc findNSNodeDDoSProtection(FindNSNodeDDoSProtectionRequest) returns (FindNSNodeDDoSProtectionResponse);",
           "doc": "获取NS节点的DDoS设置",
-          "roles": [
-            "admin",
-            "dns"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8579,9 +8161,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNSNodeDDoSProtection(UpdateNSNodeDDoSProtectionRequest) returns (RPCSuccess);",
           "doc": "修改NS节点的DDoS设置",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8590,9 +8170,7 @@
           "responseMessageName": "FindNSNodeAPIConfigResponse",
           "code": "rpc findNSNodeAPIConfig(FindNSNodeAPIConfigRequest) returns (FindNSNodeAPIConfigResponse);",
           "doc": "查找单个节点的API相关配置",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8601,9 +8179,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNSNodeAPIConfig(UpdateNSNodeAPIConfigRequest) returns (RPCSuccess);",
           "doc": "修改某个节点的API相关配置",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -8619,9 +8195,7 @@
           "responseMessageName": "CreateNSPlanResponse",
           "code": "rpc createNSPlan(CreateNSPlanRequest) returns (CreateNSPlanResponse);",
           "doc": "创建DNS套餐",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8630,9 +8204,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNSPlan(UpdateNSPlanRequest) returns (RPCSuccess);",
           "doc": "修改DNS套餐",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8641,9 +8213,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc sortNSPlanOrders(SortNSPlansRequest) returns (RPCSuccess);",
           "doc": "修改DNS套餐顺序",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8652,9 +8222,7 @@
           "responseMessageName": "FindAllNSPlansResponse",
           "code": "rpc findAllNSPlans(FindAllNSPlansRequest) returns (FindAllNSPlansResponse);",
           "doc": "查找所有DNS套餐",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8663,10 +8231,7 @@
           "responseMessageName": "FindAllEnabledNSPlansResponse",
           "code": "rpc findAllEnabledNSPlans(FindAllEnabledNSPlansRequest) returns (FindAllEnabledNSPlansResponse);",
           "doc": "查找所有可用DNS套餐",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8675,10 +8240,7 @@
           "responseMessageName": "FindNSPlanResponse",
           "code": "rpc findNSPlan(FindNSPlanRequest) returns (FindNSPlanResponse);",
           "doc": "查找DNS套餐",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8687,9 +8249,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteNSPlan(DeleteNSPlanRequest) returns (RPCSuccess);",
           "doc": "删除DNS套餐",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -8705,9 +8265,7 @@
           "responseMessageName": "CreateNSQuestionOptionResponse",
           "code": "rpc createNSQuestionOption(CreateNSQuestionOptionRequest) returns (CreateNSQuestionOptionResponse);",
           "doc": "创建选项",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8716,9 +8274,7 @@
           "responseMessageName": "FindNSQuestionOptionResponse",
           "code": "rpc findNSQuestionOption(FindNSQuestionOptionRequest) returns (FindNSQuestionOptionResponse);",
           "doc": "读取选项",
-          "roles": [
-            "dns"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8727,9 +8283,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteNSQuestionOption(DeleteNSQuestionOptionRequest) returns (RPCSuccess);",
           "doc": "删除选项",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -8745,10 +8299,7 @@
           "responseMessageName": "CreateNSRecordResponse",
           "code": "rpc createNSRecord (CreateNSRecordRequest) returns (CreateNSRecordResponse);",
           "doc": "创建记录",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8757,10 +8308,7 @@
           "responseMessageName": "CreateNSRecordsResponse",
           "code": "rpc createNSRecords(CreateNSRecordsRequest) returns (CreateNSRecordsResponse);",
           "doc": "批量创建记录",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8769,10 +8317,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc createNSRecordsWithDomainNames(CreateNSRecordsWithDomainNamesRequest) returns (RPCSuccess);",
           "doc": "为一组域名批量创建记录",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8781,10 +8326,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNSRecordsWithDomainNames(UpdateNSRecordsWithDomainNamesRequest) returns (RPCSuccess);",
           "doc": "批量修改一组域名的一组记录",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8793,10 +8335,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteNSRecordsWithDomainNames(DeleteNSRecordsWithDomainNamesRequest) returns (RPCSuccess);",
           "doc": "批量删除一组域名的一组记录",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8805,10 +8344,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNSRecordsIsOnWithDomainNames(UpdateNSRecordsIsOnWithDomainNamesRequest) returns (RPCSuccess);",
           "doc": "批量一组域名的一组记录启用状态",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8817,10 +8353,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc importNSRecords(ImportNSRecordsRequest) returns (RPCSuccess);",
           "doc": "导入域名解析",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8829,10 +8362,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNSRecord (UpdateNSRecordRequest) returns (RPCSuccess);",
           "doc": "修改记录",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8841,10 +8371,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteNSRecord (DeleteNSRecordRequest) returns (RPCSuccess);",
           "doc": "删除记录",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8853,10 +8380,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countAllNSRecords (CountAllNSRecordsRequest) returns (RPCCountResponse);",
           "doc": "计算记录数量",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8865,10 +8389,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countAllNSRecordsWithName (CountAllNSRecordsWithNameRequest) returns (RPCCountResponse);",
           "doc": "查询相同记录名的记录数",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8877,10 +8398,7 @@
           "responseMessageName": "ListNSRecordsResponse",
           "code": "rpc listNSRecords (ListNSRecordsRequest) returns (ListNSRecordsResponse);",
           "doc": "读取单页记录",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8889,10 +8407,7 @@
           "responseMessageName": "FindNSRecordResponse",
           "code": "rpc findNSRecord (FindNSRecordRequest) returns (FindNSRecordResponse);",
           "doc": "查询单个记录信息",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8901,10 +8416,7 @@
           "responseMessageName": "FindNSRecordWithNameAndTypeResponse",
           "code": "rpc findNSRecordWithNameAndType(FindNSRecordWithNameAndTypeRequest) returns (FindNSRecordWithNameAndTypeResponse);",
           "doc": "使用名称和类型查询单个记录信息",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8913,10 +8425,7 @@
           "responseMessageName": "FindNSRecordsWithNameAndTypeResponse",
           "code": "rpc findNSRecordsWithNameAndType(FindNSRecordsWithNameAndTypeRequest) returns (FindNSRecordsWithNameAndTypeResponse);",
           "doc": "使用名称和类型查询多个记录信息",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8925,9 +8434,7 @@
           "responseMessageName": "ListNSRecordsAfterVersionResponse",
           "code": "rpc listNSRecordsAfterVersion (ListNSRecordsAfterVersionRequest) returns (ListNSRecordsAfterVersionResponse);",
           "doc": "根据版本列出一组记录",
-          "roles": [
-            "dns"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8936,10 +8443,7 @@
           "responseMessageName": "FindNSRecordHealthCheckResponse",
           "code": "rpc findNSRecordHealthCheck(FindNSRecordHealthCheckRequest) returns (FindNSRecordHealthCheckResponse);",
           "doc": "查询记录健康检查设置",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8948,10 +8452,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNSRecordHealthCheck(UpdateNSRecordHealthCheckRequest) returns (RPCSuccess);",
           "doc": "修改记录健康检查设置",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8960,10 +8461,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNSRecordIsUp(UpdateNSRecordIsUpRequest) returns (RPCSuccess);",
           "doc": "手动修改记录在线状态",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -8979,9 +8477,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc uploadNSRecordHourlyStats (UploadNSRecordHourlyStatsRequest) returns (RPCSuccess);",
           "doc": "上传统计",
-          "roles": [
-            "dns"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -8990,10 +8486,7 @@
           "responseMessageName": "FindNSRecordHourlyStatResponse",
           "code": "rpc findNSRecordHourlyStat(FindNSRecordHourlyStatRequest) returns (FindNSRecordHourlyStatResponse);",
           "doc": "获取单个记录单个小时的统计",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9002,10 +8495,7 @@
           "responseMessageName": "FindLatestNSRecordsHourlyStatsResponse",
           "code": "rpc findLatestNSRecordsHourlyStats(FindLatestNSRecordsHourlyStatsRequest) returns (FindLatestNSRecordsHourlyStatsResponse);",
           "doc": "获取单个记录24小时内的统计",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9014,10 +8504,7 @@
           "responseMessageName": "FindNSRecordHourlyStatWithRecordIdsResponse",
           "code": "rpc findNSRecordHourlyStatWithRecordIds(FindNSRecordHourlyStatWithRecordIdsRequest) returns (FindNSRecordHourlyStatWithRecordIdsResponse);",
           "doc": "批量获取一组记录的统计",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -9033,10 +8520,7 @@
           "responseMessageName": "CreateNSRouteResponse",
           "code": "rpc createNSRoute (CreateNSRouteRequest) returns (CreateNSRouteResponse);",
           "doc": "创建自定义线路",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9045,10 +8529,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNSRoute (UpdateNSRouteRequest) returns (RPCSuccess);",
           "doc": "修改自定义线路",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9057,10 +8538,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteNSRoute (DeleteNSRouteRequest) returns (RPCSuccess);",
           "doc": "删除自定义线路",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9069,10 +8547,7 @@
           "responseMessageName": "FindNSRouteResponse",
           "code": "rpc findNSRoute (FindNSRouteRequest) returns (FindNSRouteResponse);",
           "doc": "获取单个自定义路线信息",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9081,10 +8556,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countAllNSRoutes(CountAllNSRoutesRequest) returns (RPCCountResponse);",
           "doc": "查询自定义线路数量",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9093,10 +8565,7 @@
           "responseMessageName": "FindAllNSRoutesResponse",
           "code": "rpc findAllNSRoutes (FindAllNSRoutesRequest) returns (FindAllNSRoutesResponse);",
           "doc": "读取所有自定义线路",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9114,10 +8583,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNSRouteOrders (UpdateNSRouteOrdersRequest) returns (RPCSuccess);",
           "doc": "设置自定义线路排序",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9126,9 +8592,7 @@
           "responseMessageName": "ListNSRoutesAfterVersionResponse",
           "code": "rpc listNSRoutesAfterVersion (ListNSRoutesAfterVersionRequest) returns (ListNSRoutesAfterVersionResponse);",
           "doc": "根据版本列出一组自定义线路",
-          "roles": [
-            "dns"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9137,10 +8601,7 @@
           "responseMessageName": "FindAllDefaultWorldRegionRoutesResponse",
           "code": "rpc findAllDefaultWorldRegionRoutes(FindAllDefaultWorldRegionRoutesRequest) returns (FindAllDefaultWorldRegionRoutesResponse);",
           "doc": "查找默认的世界区域线路",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9149,10 +8610,7 @@
           "responseMessageName": "FindAllDefaultChinaProvinceRoutesResponse",
           "code": "rpc findAllDefaultChinaProvinceRoutes(FindAllDefaultChinaProvinceRoutesRequest) returns (FindAllDefaultChinaProvinceRoutesResponse);",
           "doc": "查找默认的中国省份线路",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9161,10 +8619,7 @@
           "responseMessageName": "FindAllDefaultISPRoutesResponse",
           "code": "rpc findAllDefaultISPRoutes(FindAllDefaultISPRoutesRequest) returns (FindAllDefaultISPRoutesResponse);",
           "doc": "查找默认的ISP线路",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9173,10 +8628,7 @@
           "responseMessageName": "FindAllAgentNSRoutesResponse",
           "code": "rpc findAllAgentNSRoutes(FindAllAgentNSRoutesRequest) returns (FindAllAgentNSRoutesResponse);",
           "doc": "查找默认的搜索引擎线路",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -9192,10 +8644,7 @@
           "responseMessageName": "CreateNSRouteCategoryResponse",
           "code": "rpc createNSRouteCategory(CreateNSRouteCategoryRequest) returns (CreateNSRouteCategoryResponse);",
           "doc": "创建线路分类",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9204,10 +8653,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNSRouteCategory(UpdateNSRouteCategoryRequest) returns (RPCSuccess);",
           "doc": "修改线路分类",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9216,10 +8662,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteNSRouteCategory(DeleteNSRouteCategoryRequest) returns (RPCSuccess);",
           "doc": "删除线路分类",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9228,10 +8671,7 @@
           "responseMessageName": "FindAllNSRouteCategoriesResponse",
           "code": "rpc findAllNSRouteCategories(FindAllNSRouteCategoriesRequest) returns (FindAllNSRouteCategoriesResponse);",
           "doc": "列出所有线路分类",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9240,10 +8680,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNSRouteCategoryOrders(UpdateNSRouteCategoryOrders) returns (RPCSuccess);",
           "doc": "对线路分类进行排序",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9252,10 +8689,7 @@
           "responseMessageName": "FindNSRouteCategoryResponse",
           "code": "rpc findNSRouteCategory(FindNSRouteCategoryRequest) returns (FindNSRouteCategoryResponse);",
           "doc": "查找单个线路分类",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -9271,9 +8705,7 @@
           "responseMessageName": "CreateNSUserPlanResponse",
           "code": "rpc createNSUserPlan(CreateNSUserPlanRequest) returns (CreateNSUserPlanResponse);",
           "doc": "创建用户套餐",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9282,9 +8714,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateNSUserPlan(UpdateNSUserPlanRequest) returns (RPCSuccess);",
           "doc": "修改用户套餐",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9293,9 +8723,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteNSUserPlan(DeleteNSUserPlanRequest) returns (RPCSuccess);",
           "doc": "删除用户套餐",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9304,10 +8732,7 @@
           "responseMessageName": "FindNSUserPlanResponse",
           "code": "rpc findNSUserPlan(FindNSUserPlanRequest) returns (FindNSUserPlanResponse);",
           "doc": "读取用户套餐",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9316,9 +8741,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countNSUserPlans(CountNSUserPlansRequest) returns (RPCCountResponse);",
           "doc": "计算用户套餐数量",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9327,9 +8750,7 @@
           "responseMessageName": "ListNSUserPlansResponse",
           "code": "rpc listNSUserPlans(ListNSUserPlansRequest) returns (ListNSUserPlansResponse);",
           "doc": "列出单页套餐",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9338,9 +8759,7 @@
           "responseMessageName": "BuyNSUserPlanResponse",
           "code": "rpc buyNSUserPlan(BuyNSUserPlanRequest) returns (BuyNSUserPlanResponse);",
           "doc": "使用余额购买用户套餐",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -9356,9 +8775,7 @@
           "responseMessageName": "CreateOrderMethodResponse",
           "code": "rpc createOrderMethod(CreateOrderMethodRequest) returns (CreateOrderMethodResponse);",
           "doc": "创建支付方式",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9367,9 +8784,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateOrderMethod(UpdateOrderMethodRequest) returns (RPCSuccess);",
           "doc": "修改支付方式",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9378,9 +8793,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteOrderMethod(DeleteOrderMethodRequest) returns (RPCSuccess);",
           "doc": "删除支付方式",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9389,9 +8802,7 @@
           "responseMessageName": "FindEnabledOrderMethodResponse",
           "code": "rpc findEnabledOrderMethod(FindEnabledOrderMethodRequest) returns (FindEnabledOrderMethodResponse);",
           "doc": "查找单个支付方式",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9400,10 +8811,7 @@
           "responseMessageName": "FindEnabledOrderMethodWithCodeResponse",
           "code": "rpc findEnabledOrderMethodWithCode(FindEnabledOrderMethodWithCodeRequest) returns (FindEnabledOrderMethodWithCodeResponse);",
           "doc": "根据代号查找支付方式",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9412,10 +8820,7 @@
           "responseMessageName": "FindAllEnabledOrderMethodsResponse",
           "code": "rpc findAllEnabledOrderMethods(FindAllEnabledOrderMethodsRequest) returns (FindAllEnabledOrderMethodsResponse);",
           "doc": "查找所有支付方式",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9424,10 +8829,7 @@
           "responseMessageName": "FindAllAvailableOrderMethodsResponse",
           "code": "rpc findAllAvailableOrderMethods(FindAllAvailableOrderMethodsRequest) returns (FindAllAvailableOrderMethodsResponse);",
           "doc": "查找所有已启用的支付方式",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -9514,9 +8916,7 @@
           "responseMessageName": "CreatePlanResponse",
           "code": "rpc createPlan(CreatePlanRequest) returns (CreatePlanResponse);",
           "doc": "创建套餐",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9525,9 +8925,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updatePlan(UpdatePlanRequest) returns (RPCSuccess);",
           "doc": "修改套餐",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9536,9 +8934,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deletePlan(DeletePlanRequest) returns (RPCSuccess);",
           "doc": "删除套餐",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9547,10 +8943,7 @@
           "responseMessageName": "FindEnabledPlanResponse",
           "code": "rpc findEnabledPlan(FindEnabledPlanRequest) returns (FindEnabledPlanResponse);",
           "doc": "查找单个套餐",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9559,10 +8952,7 @@
           "responseMessageName": "FindBasicPlanResponse",
           "code": "rpc findBasicPlan(FindBasicPlanRequest) returns (FindBasicPlanResponse);",
           "doc": "查找套餐基本信息",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9571,9 +8961,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countAllEnabledPlans(CountAllEnabledPlansRequest) returns (RPCCountResponse);",
           "doc": "计算套餐数量",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9582,9 +8970,7 @@
           "responseMessageName": "ListEnabledPlansResponse",
           "code": "rpc listEnabledPlans(ListEnabledPlansRequest) returns (ListEnabledPlansResponse);",
           "doc": "列出单页套餐",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9593,10 +8979,7 @@
           "responseMessageName": "FindAllAvailablePlansResponse",
           "code": "rpc findAllAvailablePlans(FindAllAvailablePlansRequest) returns (FindAllAvailablePlansResponse);",
           "doc": "列出所有可用的套餐",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9605,9 +8988,7 @@
           "responseMessageName": "FindAllAvailableBasicPlansResponse",
           "code": "rpc findAllAvailableBasicPlans(FindAllAvailableBasicPlansRequest) returns (FindAllAvailableBasicPlansResponse);",
           "doc": "列出所有可用的套餐的基本信息",
-          "roles": [
-            "node"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9616,9 +8997,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc sortPlans(SortPlansRequest) returns (RPCSuccess);",
           "doc": "对套餐进行排序",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -9634,9 +9013,7 @@
           "responseMessageName": "CreatePostResponse",
           "code": "rpc createPost(CreatePostRequest) returns (CreatePostResponse);",
           "doc": "创建文章",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9645,9 +9022,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updatePost(UpdatePostRequest) returns (RPCSuccess);",
           "doc": "修改文章",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9656,9 +9031,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deletePost(DeletePostRequest) returns (RPCSuccess);",
           "doc": "删除文章",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9667,9 +9040,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc publishPost(PublishPostRequest) returns (RPCSuccess);",
           "doc": "发布文章",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9678,9 +9049,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countPosts(CountPostsRequest) returns (RPCCountResponse);",
           "doc": "计算文章数量",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9689,10 +9058,7 @@
           "responseMessageName": "ListPostsResponse",
           "code": "rpc listPosts(ListPostsRequest) returns (ListPostsResponse);",
           "doc": "列出单页文章",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9701,10 +9067,7 @@
           "responseMessageName": "FindPostResponse",
           "code": "rpc findPost(FindPostRequest) returns (FindPostResponse);",
           "doc": "查询单篇文章",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -9720,9 +9083,7 @@
           "responseMessageName": "CreatePostCategoryResponse",
           "code": "rpc createPostCategory(CreatePostCategoryRequest) returns (CreatePostCategoryResponse);",
           "doc": "创建分类",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9731,9 +9092,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updatePostCategory(UpdatePostCategoryRequest) returns (RPCSuccess);",
           "doc": "修改分类",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9742,9 +9101,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deletePostCategory(DeletePostCategoryRequest) returns (RPCSuccess);",
           "doc": "删除分类",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9753,9 +9110,7 @@
           "responseMessageName": "FindAllPostCategoriesResponse",
           "code": "rpc findAllPostCategories(FindAllPostCategoriesRequest) returns (FindAllPostCategoriesResponse);",
           "doc": "列出所有分类",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9773,9 +9128,7 @@
           "responseMessageName": "FindPostCategoryResponse",
           "code": "rpc findPostCategory(FindPostCategoryRequest) returns (FindPostCategoryResponse);",
           "doc": "查询单个分类",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -9784,9 +9137,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc sortPostCategories(SortPostCategoriesRequest) returns (RPCSuccess);",
           "doc": "对分类进行排序",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -9802,10 +9153,7 @@
           "responseMessageName": "CalculatePriceResponse",
           "code": "rpc calculatePrice(CalculatePriceRequest) returns (CalculatePriceResponse);",
           "doc": "计算费用",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -10067,9 +9415,7 @@
           "responseMessageName": "CreateReportNodeResponse",
           "code": "rpc createReportNode(CreateReportNodeRequest) returns (CreateReportNodeResponse);",
           "doc": "添加终端",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -10078,9 +9424,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteReportNode(DeleteReportNodeRequest) returns (RPCSuccess);",
           "doc": "删除终端",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -10089,9 +9433,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateReportNode(UpdateReportNodeRequest) returns (RPCSuccess);",
           "doc": "修改终端",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -10100,9 +9442,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countAllEnabledReportNodes(CountAllEnabledReportNodesRequest) returns (RPCCountResponse);",
           "doc": "计算终端数量",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -10111,9 +9451,7 @@
           "responseMessageName": "ListEnabledReportNodesResponse",
           "code": "rpc listEnabledReportNodes(ListEnabledReportNodesRequest) returns (ListEnabledReportNodesResponse);",
           "doc": "列出单页终端",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -10122,9 +9460,7 @@
           "responseMessageName": "FindEnabledReportNodeResponse",
           "code": "rpc findEnabledReportNode(FindEnabledReportNodeRequest) returns (FindEnabledReportNodeResponse);",
           "doc": "查找单个终端",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -10133,9 +9469,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateReportNodeStatus (UpdateReportNodeStatusRequest) returns (RPCSuccess);",
           "doc": "更新节点状态",
-          "roles": [
-            "report"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -10144,9 +9478,7 @@
           "responseMessageName": "FindCurrentReportNodeConfigResponse",
           "code": "rpc findCurrentReportNodeConfig (FindCurrentReportNodeConfigRequest) returns (FindCurrentReportNodeConfigResponse);",
           "doc": "获取当前节点信息",
-          "roles": [
-            "report"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -10155,9 +9487,7 @@
           "responseMessageName": "FindReportNodeTasksResponse",
           "code": "rpc findReportNodeTasks(FindReportNodeTasksRequest) returns (FindReportNodeTasksResponse);",
           "doc": "读取任务",
-          "roles": [
-            "report"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -10166,9 +9496,7 @@
           "responseMessageName": "FindLatestReportNodeVersionResponse",
           "code": "rpc findLatestReportNodeVersion(FindLatestReportNodeVersionRequest) returns (FindLatestReportNodeVersionResponse);",
           "doc": "取得最新的版本号",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -10177,9 +9505,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countAllReportNodeTasks(CountAllReportNodeTasksRequest) returns (RPCCountResponse);",
           "doc": "计算任务数量",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -10188,9 +9514,7 @@
           "responseMessageName": "ListReportNodeTasksResponse",
           "code": "rpc listReportNodeTasks(ListReportNodeTasksRequest) returns (ListReportNodeTasksResponse);",
           "doc": "列出单页任务",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -10199,9 +9523,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateReportNodeGlobalSetting(UpdateReportNodeGlobalSetting) returns (RPCSuccess);",
           "doc": "修改全局设置",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -10210,10 +9532,7 @@
           "responseMessageName": "ReadReportNodeGlobalSettingResponse",
           "code": "rpc readReportNodeGlobalSetting(ReadReportNodeGlobalSettingRequest) returns (ReadReportNodeGlobalSettingResponse);",
           "doc": "读取全局设置",
-          "roles": [
-            "report",
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -10229,9 +9548,7 @@
           "responseMessageName": "CreateReportNodeGroupResponse",
           "code": "rpc createReportNodeGroup(CreateReportNodeGroupRequest) returns (CreateReportNodeGroupResponse);",
           "doc": "创建分组",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -10240,9 +9557,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateReportNodeGroup(UpdateReportNodeGroupRequest) returns (RPCSuccess);",
           "doc": "修改分组",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -10251,9 +9566,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteReportNodeGroup(DeleteReportNodeGroupRequest) returns (RPCSuccess);",
           "doc": "删除分组",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -10262,9 +9575,7 @@
           "responseMessageName": "FindAllEnabledReportNodeGroupsResponse",
           "code": "rpc findAllEnabledReportNodeGroups(FindAllEnabledReportNodeGroupsRequest) returns (FindAllEnabledReportNodeGroupsResponse);",
           "doc": "查找所有分组",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -10273,9 +9584,7 @@
           "responseMessageName": "FindEnabledReportNodeGroupResponse",
           "code": "rpc findEnabledReportNodeGroup(FindEnabledReportNodeGroupRequest) returns (FindEnabledReportNodeGroupResponse);",
           "doc": "查找单个分组",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -10284,9 +9593,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countAllEnabledReportNodeGroups(CountAllEnabledReportNodeGroupsRequest) returns (RPCCountResponse);",
           "doc": "计算所有分组数量",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -10302,9 +9609,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countAllReportResults(CountAllReportResultsRequest) returns (RPCCountResponse);",
           "doc": "计算监控结果数量",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -10313,9 +9618,7 @@
           "responseMessageName": "ListReportResultsResponse",
           "code": "rpc listReportResults(ListReportResultsRequest) returns (ListReportResultsResponse);",
           "doc": "列出单页监控结果",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -10324,9 +9627,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateReportResults(UpdateReportResultsRequest) returns (RPCSuccess);",
           "doc": "上传报告结果",
-          "roles": [
-            "report"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -10335,9 +9636,7 @@
           "responseMessageName": "FindAllReportResultsResponse",
           "code": "rpc findAllReportResults(FindAllReportResultsRequest) returns (FindAllReportResultsResponse);",
           "doc": "查询某个对象的监控结果",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -10444,10 +9743,7 @@
           "responseMessageName": "CreateScriptResponse",
           "code": "rpc createScript(CreateScriptRequest) returns (CreateScriptResponse);",
           "doc": "添加脚本",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -10456,10 +9752,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteScript(DeleteScriptRequest) returns (RPCSuccess);",
           "doc": "删除脚本",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -10468,10 +9761,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countAllEnabledScripts(CountAllEnabledScriptsRequest) returns (RPCCountResponse);",
           "doc": "计算脚本数量",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -10480,10 +9770,7 @@
           "responseMessageName": "ListEnabledScriptsResponse",
           "code": "rpc listEnabledScripts(ListEnabledScriptsRequest) returns (ListEnabledScriptsResponse);",
           "doc": "列出单页脚本",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -10492,10 +9779,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc publishScripts(PublishScriptsRequest) returns (RPCSuccess);",
           "doc": "发布脚本",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -10504,10 +9788,7 @@
           "responseMessageName": "CheckScriptUpdatesResponse",
           "code": "rpc checkScriptUpdates(CheckScriptUpdatesRequest) returns (CheckScriptUpdatesResponse);",
           "doc": "检查脚本是否需要有更新",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -10516,10 +9797,7 @@
           "responseMessageName": "FindEnabledScriptResponse",
           "code": "rpc findEnabledScript(FindEnabledScriptRequest) returns (FindEnabledScriptResponse);",
           "doc": "查找单个脚本",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -10528,10 +9806,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateScript(UpdateScriptRequest) returns (RPCSuccess);",
           "doc": "修改脚本",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -10540,9 +9815,7 @@
           "responseMessageName": "ComposeScriptConfigsResponse",
           "code": "rpc composeScriptConfigs(ComposeScriptConfigsRequest) returns (ComposeScriptConfigsResponse);",
           "doc": "组合脚本配置",
-          "roles": [
-            "node"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -11249,10 +10522,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateServerUAM(UpdateServerUAMRequest) returns (RPCSuccess);",
           "doc": "修改网站UAM设置",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -11261,10 +10531,7 @@
           "responseMessageName": "FindEnabledServerUAMResponse",
           "code": "rpc findEnabledServerUAM(FindEnabledServerUAMRequest) returns (FindEnabledServerUAMResponse);",
           "doc": "查找网站UAM设置",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -11390,10 +10657,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countAllServerBills(CountAllServerBillsRequest) returns (RPCCountResponse);",
           "doc": "查询服务账单数量",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -11402,10 +10666,7 @@
           "responseMessageName": "ListServerBillsResponse",
           "code": "rpc listServerBills(ListServerBillsRequest) returns (ListServerBillsResponse);",
           "doc": "查询服务账单列表",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -11942,9 +11203,7 @@
           "responseMessageName": "SendSMSResponse",
           "code": "rpc sendSMS(SendSMSRequest) returns (SendSMSResponse);",
           "doc": "发送短信",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -12247,9 +11506,7 @@
           "responseMessageName": "CreateTrafficPackageResponse",
           "code": "rpc createTrafficPackage(CreateTrafficPackageRequest) returns (CreateTrafficPackageResponse);",
           "doc": "创建流量包",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -12258,9 +11515,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateTrafficPackage(UpdateTrafficPackageRequest) returns (RPCSuccess);",
           "doc": "修改流量包",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -12269,9 +11524,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteTrafficPackage(DeleteTrafficPackageRequest) returns (RPCSuccess);",
           "doc": "删除流量包",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -12280,9 +11533,7 @@
           "responseMessageName": "FindTrafficPackageResponse",
           "code": "rpc findTrafficPackage(FindTrafficPackageRequest) returns (FindTrafficPackageResponse);",
           "doc": "查找流量包",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -12291,9 +11542,7 @@
           "responseMessageName": "FindAllTrafficPackagesResponse",
           "code": "rpc findAllTrafficPackages(FindAllTrafficPackagesRequest) returns (FindAllTrafficPackagesResponse);",
           "doc": "查找所有流量包",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -12302,9 +11551,7 @@
           "responseMessageName": "FindAllAvailableTrafficPackagesResponse",
           "code": "rpc findAllAvailableTrafficPackages(FindAllAvailableTrafficPackagesRequest) returns (FindAllAvailableTrafficPackagesResponse);",
           "doc": "查找所有可用流量包",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -12320,9 +11567,7 @@
           "responseMessageName": "CreateTrafficPackagePeriodResponse",
           "code": "rpc createTrafficPackagePeriod(CreateTrafficPackagePeriodRequest) returns (CreateTrafficPackagePeriodResponse);",
           "doc": "创建有效期",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -12331,9 +11576,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateTrafficPackagePeriod(UpdateTrafficPackagePeriodRequest) returns (RPCSuccess);",
           "doc": "修改有效期",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -12342,9 +11585,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteTrafficPackagePeriod(DeleteTrafficPackagePeriodRequest) returns (RPCSuccess);",
           "doc": "删除有效期",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -12353,9 +11594,7 @@
           "responseMessageName": "FindTrafficPackagePeriodResponse",
           "code": "rpc findTrafficPackagePeriod(FindTrafficPackagePeriodRequest) returns (FindTrafficPackagePeriodResponse);",
           "doc": "查找有效期",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -12364,9 +11603,7 @@
           "responseMessageName": "FindAllTrafficPackagePeriodsResponse",
           "code": "rpc findAllTrafficPackagePeriods(FindAllTrafficPackagePeriodsRequest) returns (FindAllTrafficPackagePeriodsResponse);",
           "doc": "列出所有有效期",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -12375,9 +11612,7 @@
           "responseMessageName": "FindAllAvailableTrafficPackagePeriodsResponse",
           "code": "rpc findAllAvailableTrafficPackagePeriods(FindAllAvailableTrafficPackagePeriodsRequest) returns (FindAllAvailableTrafficPackagePeriodsResponse);",
           "doc": "列出所有可用有效期",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -12393,9 +11628,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateTrafficPackagePrice(UpdateTrafficPackagePriceRequest) returns (RPCSuccess);",
           "doc": "设置流量包价格",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -12404,9 +11637,7 @@
           "responseMessageName": "FindTrafficPackagePriceResponse",
           "code": "rpc findTrafficPackagePrice(FindTrafficPackagePriceRequest) returns (FindTrafficPackagePriceResponse);",
           "doc": "获取单个流量包具体价格",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -12415,9 +11646,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countTrafficPackagePrices(CountTrafficPackagePricesRequest) returns (RPCCountResponse);",
           "doc": "计算流量包价格项数量",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -12426,9 +11655,7 @@
           "responseMessageName": "FindTrafficPackagePricesResponse",
           "code": "rpc findTrafficPackagePrices(FindTrafficPackagePricesRequest) returns (FindTrafficPackagePricesResponse);",
           "doc": "查找流量包价格",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -12437,9 +11664,7 @@
           "responseMessageName": "FindAllTrafficPackagePricesResponse",
           "code": "rpc findAllTrafficPackagePrices(FindAllTrafficPackagePricesRequest) returns (FindAllTrafficPackagePricesResponse);",
           "doc": "查找所有流量包价格",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -12693,9 +11918,7 @@
           "responseMessageName": "FindUserPriceInfoResponse",
           "code": "rpc findUserPriceInfo(FindUserPriceInfoRequest) returns (FindUserPriceInfoResponse);",
           "doc": "读取用户计费信息",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -12704,9 +11927,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateUserPriceType(UpdateUserPriceTypeRequest) returns (RPCSuccess);",
           "doc": "修改用户计费方式",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -12715,9 +11936,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateUserPricePeriod(UpdateUserPricePeriodRequest) returns (RPCSuccess);",
           "doc": "修改用户计费周期",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -12849,9 +12068,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countUserAccounts(CountUserAccountsRequest) returns (RPCCountResponse);",
           "doc": "计算账户数量",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -12860,9 +12077,7 @@
           "responseMessageName": "ListUserAccountsResponse",
           "code": "rpc listUserAccounts(ListUserAccountsRequest) returns (ListUserAccountsResponse);",
           "doc": "列出单页账户",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -12871,10 +12086,7 @@
           "responseMessageName": "FindEnabledUserAccountWithUserIdResponse",
           "code": "rpc findEnabledUserAccountWithUserId(FindEnabledUserAccountWithUserIdRequest) returns (FindEnabledUserAccountWithUserIdResponse);",
           "doc": "根据用户ID查找单个账户",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -12883,10 +12095,7 @@
           "responseMessageName": "FindEnabledUserAccountResponse",
           "code": "rpc findEnabledUserAccount(FindEnabledUserAccountRequest) returns (FindEnabledUserAccountResponse);",
           "doc": "查找单个账户",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -12895,9 +12104,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateUserAccount(UpdateUserAccountRequest) returns (RPCSuccess);",
           "doc": "修改用户账户",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -12913,9 +12120,7 @@
           "responseMessageName": "ListUserAccountDailyStatsResponse",
           "code": "rpc listUserAccountDailyStats(ListUserAccountDailyStatsRequest) returns (ListUserAccountDailyStatsResponse);",
           "doc": "列出按天统计",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -12924,9 +12129,7 @@
           "responseMessageName": "ListUserAccountMonthlyStatsResponse",
           "code": "rpc listUserAccountMonthlyStats(ListUserAccountMonthlyStatsRequest) returns (ListUserAccountMonthlyStatsResponse);",
           "doc": "列出按月统计",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -12942,10 +12145,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countUserAccountLogs(CountUserAccountLogsRequest) returns (RPCCountResponse);",
           "doc": "计算日志数量",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -12954,10 +12154,7 @@
           "responseMessageName": "ListUserAccountLogsResponse",
           "code": "rpc listUserAccountLogs(ListUserAccountLogsRequest) returns (ListUserAccountLogsResponse);",
           "doc": "列出单页日志",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -12973,9 +12170,7 @@
           "responseMessageName": "CreateUserADInstanceResponse",
           "code": "rpc createUserADInstance(CreateUserADInstanceRequest) returns (CreateUserADInstanceResponse);",
           "doc": "创建用户高防实例",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -12984,9 +12179,7 @@
           "responseMessageName": "BuyUserADInstanceResponse",
           "code": "rpc buyUserADInstance(BuyUserADInstanceRequest) returns (BuyUserADInstanceResponse);",
           "doc": "购买用户高防实例",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -12995,9 +12188,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countUserADInstances(CountUserADInstancesRequest) returns (RPCCountResponse);",
           "doc": "计算用户高防实例数量",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13006,9 +12197,7 @@
           "responseMessageName": "ListUserADInstancesResponse",
           "code": "rpc listUserADInstances(ListUserADInstancesRequest) returns (ListUserADInstancesResponse);",
           "doc": "列出单页用户高防实例",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13017,9 +12206,7 @@
           "responseMessageName": "FindUserADInstanceResponse",
           "code": "rpc findUserADInstance(FindUserADInstanceRequest) returns (FindUserADInstanceResponse);",
           "doc": "查找单个用户高防实例",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13028,9 +12215,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteUserADInstance(DeleteUserADInstanceRequest) returns (RPCSuccess);",
           "doc": "删除用户高防实例",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13039,9 +12224,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc renewUserADInstance(RenewUserADInstanceRequest) returns (RPCSuccess);",
           "doc": "续期用户高防实例",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13050,9 +12233,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateUserADInstanceObjects(UpdateUserADInstanceObjectsRequest) returns (RPCSuccess);",
           "doc": "修改实例防护对象",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -13068,9 +12249,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc generateAllUserBills (GenerateAllUserBillsRequest) returns (RPCSuccess);",
           "doc": "手工生成账单",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13079,10 +12258,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countAllUserBills (CountAllUserBillsRequest) returns (RPCCountResponse);",
           "doc": "计算所有账单数量",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13091,10 +12267,7 @@
           "responseMessageName": "ListUserBillsResponse",
           "code": "rpc listUserBills (ListUserBillsRequest) returns (ListUserBillsResponse);",
           "doc": "列出单页账单",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13103,10 +12276,7 @@
           "responseMessageName": "FindUserBillResponse",
           "code": "rpc findUserBill(FindUserBillRequest) returns (FindUserBillResponse);",
           "doc": "查找账单信息",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13115,10 +12285,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc payUserBill(PayUserBillRequest) returns (RPCSuccess);",
           "doc": "支付账单",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13127,10 +12294,7 @@
           "responseMessageName": "SumUserUnpaidBillsResponse",
           "code": "rpc sumUserUnpaidBills(SumUserUnpaidBillsRequest) returns (SumUserUnpaidBillsResponse);",
           "doc": "计算用户所有未支付账单总额",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -13333,9 +12497,7 @@
           "responseMessageName": "CreateUserNodeResponse",
           "code": "rpc createUserNode (CreateUserNodeRequest) returns (CreateUserNodeResponse);",
           "doc": "创建用户节点",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13344,9 +12506,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateUserNode (UpdateUserNodeRequest) returns (RPCSuccess);",
           "doc": "修改用户节点",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13355,9 +12515,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteUserNode (DeleteUserNodeRequest) returns (RPCSuccess);",
           "doc": "删除用户节点",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13366,9 +12524,7 @@
           "responseMessageName": "FindAllEnabledUserNodesResponse",
           "code": "rpc findAllEnabledUserNodes (FindAllEnabledUserNodesRequest) returns (FindAllEnabledUserNodesResponse);",
           "doc": "列出所有可用用户节点",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13377,9 +12533,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countAllEnabledUserNodes (CountAllEnabledUserNodesRequest) returns (RPCCountResponse);",
           "doc": "计算用户节点数量",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13388,9 +12542,7 @@
           "responseMessageName": "ListEnabledUserNodesResponse",
           "code": "rpc listEnabledUserNodes (ListEnabledUserNodesRequest) returns (ListEnabledUserNodesResponse);",
           "doc": "列出单页的用户节点",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13399,9 +12551,7 @@
           "responseMessageName": "FindEnabledUserNodeResponse",
           "code": "rpc findEnabledUserNode (FindEnabledUserNodeRequest) returns (FindEnabledUserNodeResponse);",
           "doc": "根据ID查找节点",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13419,9 +12569,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateUserNodeStatus (UpdateUserNodeStatusRequest) returns (RPCSuccess);",
           "doc": "更新节点状态",
-          "roles": [
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13430,9 +12578,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countAllEnabledUserNodesWithSSLCertId (CountAllEnabledUserNodesWithSSLCertIdRequest) returns (RPCCountResponse);",
           "doc": "计算使用某个SSL证书的用户节点数量",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13441,9 +12587,7 @@
           "responseMessageName": "FindUserNodeAccessAddrResponse",
           "code": "rpc findUserNodeAccessAddr(FindUserNodeAccessAddrRequest) returns (FindUserNodeAccessAddrResponse);",
           "doc": "获取用户节点访问地址",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -13468,10 +12612,7 @@
           "responseMessageName": "FindEnabledUserOrderResponse",
           "code": "rpc findEnabledUserOrder(FindEnabledUserOrderRequest) returns (FindEnabledUserOrderResponse);",
           "doc": "查看订单",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13480,10 +12621,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc cancelUserOrder(CancelUserOrderRequest) returns (RPCSuccess);",
           "doc": "取消订单",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13492,9 +12630,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc finishUserOrder(FinishUserOrderRequest) returns (RPCSuccess);",
           "doc": "完成订单",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13503,10 +12639,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countEnabledUserOrders(CountEnabledUserOrdersRequest) returns (RPCCountResponse);",
           "doc": "计算订单数量",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13515,10 +12648,7 @@
           "responseMessageName": "ListEnabledUserOrdersResponse",
           "code": "rpc listEnabledUserOrders(ListEnabledUserOrdersRequest) returns (ListEnabledUserOrdersResponse);",
           "doc": "列出单页订单",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13543,10 +12673,7 @@
           "responseMessageName": "BuyUserPlanResponse",
           "code": "rpc buyUserPlan(BuyUserPlanRequest) returns (BuyUserPlanResponse);",
           "doc": "购买套餐",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13555,10 +12682,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc renewUserPlan(RenewUserPlanRequest) returns (RPCSuccess);",
           "doc": "续费套餐",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13567,10 +12691,7 @@
           "responseMessageName": "FindEnabledUserPlanResponse",
           "code": "rpc findEnabledUserPlan(FindEnabledUserPlanRequest) returns (FindEnabledUserPlanResponse);",
           "doc": "查找单个已购套餐信息",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13579,9 +12700,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateUserPlan(UpdateUserPlanRequest) returns (RPCSuccess);",
           "doc": "修改已购套餐",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13590,10 +12709,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteUserPlan(DeleteUserPlanRequest) returns (RPCSuccess);",
           "doc": "删除已购套餐",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13602,10 +12718,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countAllEnabledUserPlans(CountAllEnabledUserPlansRequest) returns (RPCCountResponse);",
           "doc": "计算已购套餐数",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13614,10 +12727,7 @@
           "responseMessageName": "ListEnabledUserPlansResponse",
           "code": "rpc listEnabledUserPlans(ListEnabledUserPlansRequest) returns (ListEnabledUserPlansResponse);",
           "doc": "列出单页已购套餐",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13626,10 +12736,7 @@
           "responseMessageName": "FindAllEnabledUserPlansForServerResponse",
           "code": "rpc findAllEnabledUserPlansForServer(FindAllEnabledUserPlansForServerRequest) returns (FindAllEnabledUserPlansForServerResponse);",
           "doc": "查找所有服务可用的套餐",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -13645,9 +12752,7 @@
           "responseMessageName": "FindUserScriptResponse",
           "code": "rpc findUserScript(FindUserScriptRequest) returns (FindUserScriptResponse);",
           "doc": "查找单个用户脚本信息",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13656,10 +12761,7 @@
           "responseMessageName": "FindUserScriptWithMD5Response",
           "code": "rpc findUserScriptWithMD5(FindUserScriptWithMD5Request) returns (FindUserScriptWithMD5Response);",
           "doc": "根据代码MD5查找脚本",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13668,9 +12770,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countUserScripts(CountUserScriptsRequest) returns (RPCCountResponse);",
           "doc": "计算用户脚本数量",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13679,9 +12779,7 @@
           "responseMessageName": "ListUserScriptsResponse",
           "code": "rpc listUserScripts(ListUserScriptsRequest) returns (ListUserScriptsResponse);",
           "doc": "列出单页用户脚本",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13690,9 +12788,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc passUserScript(PassUserScriptRequest) returns (RPCSuccess);",
           "doc": "审核并通过用户脚本",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13701,9 +12797,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc rejectUserScript(RejectUserScriptRequest) returns (RPCSuccess);",
           "doc": "审核并驳回用户脚本",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -13719,9 +12813,7 @@
           "responseMessageName": "CreateUserTicketResponse",
           "code": "rpc createUserTicket(CreateUserTicketRequest) returns (CreateUserTicketResponse);",
           "doc": "创建工单",
-          "roles": [
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13730,9 +12822,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateUserTicket(UpdateUserTicketRequest) returns (RPCSuccess);",
           "doc": "修改工单",
-          "roles": [
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13741,9 +12831,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteUserTicket(DeleteUserTicketRequest) returns (RPCSuccess);",
           "doc": "删除工单",
-          "roles": [
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13752,10 +12840,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countUserTickets(CountUserTicketsRequest) returns (RPCCountResponse);",
           "doc": "计算工单数量",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13764,10 +12849,7 @@
           "responseMessageName": "ListUserTicketsResponse",
           "code": "rpc listUserTickets(ListUserTicketsRequest) returns (ListUserTicketsResponse);",
           "doc": "列出单页工单",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13776,10 +12858,7 @@
           "responseMessageName": "FindUserTicketResponse",
           "code": "rpc findUserTicket(FindUserTicketRequest) returns (FindUserTicketResponse);",
           "doc": "查找单个工单",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -13795,9 +12874,7 @@
           "responseMessageName": "CreateUserTicketCategoryResponse",
           "code": "rpc createUserTicketCategory(CreateUserTicketCategoryRequest) returns (CreateUserTicketCategoryResponse);",
           "doc": "创建分类",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13806,9 +12883,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc updateUserTicketCategory(UpdateUserTicketCategoryRequest) returns (RPCSuccess);",
           "doc": "修改分类",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13817,9 +12892,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteUserTicketCategory(DeleteUserTicketCategoryRequest) returns (RPCSuccess);",
           "doc": "删除分类",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13828,9 +12901,7 @@
           "responseMessageName": "FindAllUserTicketCategoriesResponse",
           "code": "rpc findAllUserTicketCategories(FindAllUserTicketCategoriesRequest) returns (FindAllUserTicketCategoriesResponse);",
           "doc": "查找所有分类",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13839,10 +12910,7 @@
           "responseMessageName": "FindAllAvailableUserTicketCategoriesResponse",
           "code": "rpc findAllAvailableUserTicketCategories(FindAllAvailableUserTicketCategoriesRequest) returns (FindAllAvailableUserTicketCategoriesResponse);",
           "doc": "查找所有启用中的分类",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13851,9 +12919,7 @@
           "responseMessageName": "FindUserTicketCategoryResponse",
           "code": "rpc findUserTicketCategory(FindUserTicketCategoryRequest) returns (FindUserTicketCategoryResponse);",
           "doc": "查询单个分类",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -13869,10 +12935,7 @@
           "responseMessageName": "CreateUserTicketLogResponse",
           "code": "rpc createUserTicketLog(CreateUserTicketLogRequest) returns (CreateUserTicketLogResponse);",
           "doc": "创建日志",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13881,10 +12944,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteUserTicketLog(DeleteUserTicketLogRequest) returns (RPCSuccess);",
           "doc": "删除日志",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13893,10 +12953,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countUserTicketLogs(CountUserTicketLogsRequest) returns (RPCCountResponse);",
           "doc": "查询日志数量",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13905,10 +12962,7 @@
           "responseMessageName": "ListUserTicketLogsResponse",
           "code": "rpc listUserTicketLogs(ListUserTicketLogsRequest) returns (ListUserTicketLogsResponse);",
           "doc": "列出单页日志",
-          "roles": [
-            "admin",
-            "user"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -13924,9 +12978,7 @@
           "responseMessageName": "FindUserTrafficBillsResponse",
           "code": "rpc findUserTrafficBills(FindUserTrafficBillsRequest) returns (FindUserTrafficBillsResponse);",
           "doc": "列出某个账单下的流量带宽子账单",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -13942,9 +12994,7 @@
           "responseMessageName": "CreateUserTrafficPackageResponse",
           "code": "rpc createUserTrafficPackage(CreateUserTrafficPackageRequest) returns (CreateUserTrafficPackageResponse);",
           "doc": "创建用户流量包",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13953,9 +13003,7 @@
           "responseMessageName": "BuyUserTrafficPackageResponse",
           "code": "rpc buyUserTrafficPackage(BuyUserTrafficPackageRequest) returns (BuyUserTrafficPackageResponse);",
           "doc": "购买用户流量包",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13964,9 +13012,7 @@
           "responseMessageName": "RPCCountResponse",
           "code": "rpc countUserTrafficPackages(CountUserTrafficPackagesRequest) returns (RPCCountResponse);",
           "doc": "查询当前流量包数量",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13975,9 +13021,7 @@
           "responseMessageName": "ListUserTrafficPackagesResponse",
           "code": "rpc listUserTrafficPackages(ListUserTrafficPackagesRequest) returns (ListUserTrafficPackagesResponse);",
           "doc": "列出单页流量包",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         },
         {
@@ -13986,9 +13030,7 @@
           "responseMessageName": "RPCSuccess",
           "code": "rpc deleteUserTrafficPackage(DeleteUserTrafficPackageRequest) returns (RPCSuccess);",
           "doc": "删除流量包",
-          "roles": [
-            "admin"
-          ],
+          "roles": [],
           "isDeprecated": false
         }
       ],
@@ -22050,6 +21092,16 @@
     {
       "name": "SSLCert",
       "code": "message SSLCert {\n\tint64 id = 1;\n\tbool isOn = 2;\n\tstring name = 3;\n\tint64 timeBeginAt = 4;\n\tint64 timeEndAt = 5;\n\trepeated string dnsNames = 6;\n\trepeated string commonNames = 7;\n\tbool isACME = 8;\n\tint64 acmeTaskId = 17;\n\tbytes ocsp = 9;\n\tbool ocspIsUpdated = 10;\n\tstring ocspError = 11;\n\tstring description = 12;\n\tbool isCA = 13;\n\tstring serverName = 14;\n\tint64 createdAt = 15;\n\tint64 updatedAt = 16;\n}",
+      "doc": ""
+    },
+    {
+      "name": "SayHelloRequest",
+      "code": "message SayHelloRequest {\n\tint64 id = 1;\n\tstring name = 2;\n}",
+      "doc": ""
+    },
+    {
+      "name": "SayHelloResponse",
+      "code": "message SayHelloResponse {\n\tstring result = 1;\n}",
       "doc": ""
     },
     {
